@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
 </head>
+
 <body>
     <script src="./app.js" ></script>
     <header>
-        <section>
-            <img src="assets/todo_logo.png" alt="logo">
-        </section>
-
-        <section>
+        <section id="headerImg">
+            <img src="assets/todo_logo.png" alt="logo" >
             <h1>ToDo</h1>
         </section>
 
         <nav>
-            <ul> 
+            <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">about</a></li>
             </ul>
@@ -27,89 +27,89 @@
         <button>
             Lorem Ipsum
         </button>
-
     </header>
 
     <main>
-    
-        <section>
-            <section > 
+        <section class="homeMain">
+            <section>
                 <h2>Todays Flights</h2>
             </section>
 
-            <section  >
-                <table border="1" >
-                    <tr>
-                        <th><h4>Tasks</h4></th>
-                        <th><h4>Status</h4></th>
+            <section class="tableSection" >
+                <table border='1'>
+                    <tr class="header-cell-height tableHeaderColor">
+                        <th>
+                            <h4>Tasks</h4>
+                        </th>
+                        <th>
+                            <h4>Status</h4>
+                        </th>
                     </tr>
-                    <tr>
-                        <td>Create a repository</td>
-                        <td>Done</td>
+                    <tr class="cell-height">
+                        <td class="cell-padding">Create a repository</td>
+                        <td class="cell-padding" >Done</td>
                     </tr>
-                    <tr>
-                        <td> Create a new branch </td>
-                        <td>In progress</td>
+                    <tr  class="cell-height">
+                        <td class="cell-padding"> Create a new branch </td>
+                        <td class="cell-padding">In progress</td>
                     </tr>
-                    <tr>
-                        <td>Push your changes to the new branch and create a pull request</td>
-                        <td>to do </td>
+                    <tr  class="cell-height">
+                        <td class="cell-padding">Push your changes to the new branch and create a pull request</td>
+                        <td class="cell-padding">to do </td>
                     </tr>
                 </table>
+                <button class="tableButton">Submit</button>
             </section>
-            <button>Submit</button>
         </section>
 
     </main>
-    
+
+  
     <footer>
-       <section>
+        <section class="footerSection1">
+            <section class="footerSubsection1">
+                <div class="footerDiv">
+                    <img src="assets/todo_logo.png" alt="logo" class="footerToDoImg" >
+                    <p class="footerToDoText" >ToDo</p>
+                </div>
+                <p>Quisque euismod, est vitae mollis scelerisque, odio nunc euismod lorem, vel egestas ligula purus eget
+                    mi.
+                </p>
+            </section>
+            <nav >
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
 
-          <section>
-            <img src="assets/todo_logo.png" alt="logo">
-          </section>
+            <section class="footerSection2">
+                <section class="flex-container footerSubsection2">
+                    <img src="assets/phone-icon.png" alt="logo" class="footerSubsection2Img1">
+                    <p>+962 777 888 999</p>
+                </section>
 
-          <section>
-              <p>ToDo</p>
-              <p>Quisque euismod, est vitae mollis scelerisque, odio nunc euismod lorem, vel egestas ligula purus eget mi.</p>
-          </section>
+                <section class="flex-container">
+                    <img src="assets/mail-logo.png" alt="logo" class="footerSubsection2Img2">
+                    <p>Todo@gmail.com</p>
+                </section>
+            </section>
 
-       </section>
-
-       <nav>
-        <ul> 
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">about</a></li>
-        </ul>
-    </nav>
-
-    <section>
-        <section>
-            <img src="assets/phone-icon.png" alt="logo">
-            <p>+962 777 888 999</p>
+            <section>
+                <button class="footerButton">
+                    Lorem Ipsum
+                </button>
+                <section>
+                    <img src="assets/facebook-logo.png" class="section3Img" alt="logo">
+                    <img src="assets/insta-logo.png" alt="logo" class="section3Img" >
+                    <img src="assets/twitter-logo.png" alt="logo" class="section3Img" >
+                </section>
+            </section>
         </section>
-
-        <section>
-            <img src="assets/mail-logo.png" alt="logo">
-            <p>Todo@gmail.com</p>
+        <section class="copyWriteSection">
+            <p>&#169 2023 Quisque euismod, est vitae mollis</p>
         </section>
-    </section>
-
-    <section>
-        <button>
-            Lorem Ipsum
-        </button>
-        <section>
-            <img src="assets/facebook-logo.png" alt="logo">
-            <img src="assets/insta-logo.png" alt="logo">
-            <img src="assets/twitter-logo.png" alt="logo">
-        </section>
-    </section>
-
-    <section>
-        <p>&#169 2023 Quisque euismod, est vitae mollis</p>
-    </section>
-
     </footer>
 </body>
+
 </html>
