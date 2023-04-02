@@ -1,7 +1,240 @@
-header {
-    background-color: gray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-nav {
-   text-align: center; 
+/* Set a custom font family */
+body {
+    font-family: Arial, sans-serif;
 }
+
+/* Style the header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #dedede;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header img {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+/* Style the main section */
+main {
+    padding: 120px;
+    padding-top: 40px;
+    margin : 0px;
+}
+
+.flex-container {
+    display:flex; 
+    align-items: center;
+}
+
+.mainImg {
+    min-width: 220px; 
+    max-width: 300px;
+    margin-right: 40px;
+}
+
+main h3 {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+main form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* max-width: 800px; */
+    width:100%
+}
+
+.formSection1{
+    width: 47%;
+}
+
+.formSection2{
+    width: 47%;
+}
+
+main label {
+    font-weight: bold;
+}
+
+main input, main textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.homeMain{
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 85px;
+}
+
+.tableSection{
+    margin-top: 30px;
+}
+
+table{
+    width:80%
+}
+
+.tableHeaderColor{
+    background-color: #f2f2f2;
+}
+
+table th{
+    width: 50%;
+}
+
+.tableButton{
+    margin-top: 30px;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #cccccc;
+    padding: 20px;
+    box-shadow: 50px 20px 50px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 120px;
+
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+footer nav li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+footer nav{
+    width: 25%;
+}
+
+.footerSection1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerSubsection1{
+    width: 25%;
+}
+
+.footerDiv{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.footerToDoImg{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.footerToDoText{
+    font-size: 1.5rem;
+}
+
+.footerSection2{
+    width: 25%;
+}
+
+.footerSubsection2{
+    margin-bottom:20px;
+}
+
+.footerSubsection2Img1{
+    width:20px; 
+    height:30px; 
+    margin-right: 10px;
+}
+
+.footerSubsection2Img2{
+    width:30px;
+    height:30px;
+    margin-right: 10px;
+}
+
+.footerButton{
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.section3Img{
+    width:50px;
+    height:50px;
+}
+
+.copyWriteSection{
+    margin-top: 40px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.header-cell-height {
+    height: 50px;
+}
+
+.cell-height {
+    height: 40px;
+}
+
+.cell-padding {
+    padding:20px
+}
+

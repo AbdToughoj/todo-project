@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -7,18 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
 </head>
+
 <body>
     <header>
         <section id="headerImg">
-            <img src="assets/todo_logo.png" alt="logo" width="50" height="50">
-        </section>
-
-        <section>
+            <img src="assets/todo_logo.png" alt="logo" >
             <h1>ToDo</h1>
         </section>
 
-        <nav >
-            <ul> 
+        <nav>
+            <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">about</a></li>
             </ul>
@@ -27,96 +26,92 @@
         <button>
             Lorem Ipsum
         </button>
-
     </header>
 
     <main>
-        <section>
+        <section class="flex-container">
+            <img src="assets/profilePic.jpg" alt="logo" class="mainImg">
             <section>
-                <img src="assets/profile-pic.png" alt="logo">
-            </section>
-            <section>
-                <h3>User Name</h3>
-                <p>Bio:
-                    Quisque euismod, est vitae mollis scelerisque, odio nunc euismod lorem, vel egestas ligula purus eget mi. Suspendisse efficitur nisi vel felis varius, dictum convallis metus auctor. ligula purus eget mi. Suspendisse efficitur nisi vel felis varius, ligula purus eget mi. Suspendisse efficitur nisi vel felis varius.
+                <h3>Abdallah Toughoj</h3>
+                <p>Bio: </br>
+                    My name is Abdallah Toughoj, I am 23 years old and I am a fresh graduate from
+                    the University of Jordan with 3.40 gpa with a
+                    passion for learning and acquiring new skills. I aim to utilize my educational
+                    background, problem-solving skills, and interest in programming to thrive as an
+                    entry-level software developer. My goal is to improve my self in coding
+                    and to become a full stack developer with excellent problem solving skills.
+                    In my free time, I love to play video games and go out with my friends. 
                 </p>
             </section>
         </section>
 
-        <section>
+        <section >
             <h3>Send Us Your Message Now</h3>
             <form>
-                <section>
+                <section class="formSection1">
                     <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name"><br>
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email"><br>
                     <label for="phone">Phone:</label><br>
                     <input type="tel" id="phone" name="phone"><br>
-                    
-
                 </section>
-                <section>
+                <section class="formSection2">
                     <label for="message">Message:</label><br>
-                    <textarea rows="5" cols="33"></textarea>
+                    <textarea rows="11"></textarea>
                 </section>
             </form>
-
         </section>
-       
-
 
     </main>
 
     <footer>
-        <section>
+        <section class="footerSection1">
+            <section class="footerSubsection1">
+                <div class="footerDiv">
+                    <img src="assets/todo_logo.png" alt="logo" class="footerToDoImg" >
+                    <p class="footerToDoText" >ToDo</p>
+                </div>
+                <p>Quisque euismod, est vitae mollis scelerisque, odio nunc euismod lorem, vel egestas ligula purus eget
+                    mi.
+                </p>
+            </section>
+            <nav >
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
+
+            <section class="footerSection2">
+                <section class="flex-container footerSubsection2">
+                    <img src="assets/phone-icon.png" alt="logo" class="footerSubsection2Img1">
+                    <p>+962 777 888 999</p>
+                </section>
+
+                <section class="flex-container">
+                    <img src="assets/mail-logo.png" alt="logo" class="footerSubsection2Img2">
+                    <p>Todo@gmail.com</p>
+                </section>
+            </section>
 
             <section>
-              <img src="assets/todo_logo.png" alt="logo">
+                <button class="footerButton">
+                    Lorem Ipsum
+                </button>
+                <section>
+                    <img src="assets/facebook-logo.png" class="section3Img" alt="logo">
+                    <img src="assets/insta-logo.png" alt="logo" class="section3Img" >
+                    <img src="assets/twitter-logo.png" alt="logo" class="section3Img" >
+                </section>
             </section>
-  
-            <section>
-                <p>ToDo</p>
-                <p>Quisque euismod, est vitae mollis scelerisque, odio nunc euismod lorem, vel egestas ligula purus eget mi.</p>
-            </section>
-  
-         </section>
-  
-         <nav>
-          <ul> 
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./about.html">about</a></li>
-          </ul>
-      </nav>
-  
-      <section>
-          <section>
-              <img src="assets/phone-icon.png" alt="logo">
-              <p>+962 777 888 999</p>
-          </section>
-  
-          <section>
-              <img src="assets/mail-logo.png" alt="logo">
-              <p>Todo@gmail.com</p>
-          </section>
-      </section>
-  
-      <section>
-          <button>
-              Lorem Ipsum
-          </button>
-          <section>
-              <img src="assets/facebook-logo.png" alt="logo">
-              <img src="assets/insta-logo.png" alt="logo">
-              <img src="assets/twitter-logo.png" alt="logo">
-          </section>
-      </section>
-  
-      <section>
-          <p>&#169 2023 Quisque euismod, est vitae mollis</p>
-      </section>
+        </section>
+        <section class="copyWriteSection">
+            <p>&#169 2023 Quisque euismod, est vitae mollis</p>
+        </section>
 
     </footer>
 
 </body>
+
 </html>
